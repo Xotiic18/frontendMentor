@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(292, 16%, 49%);
+  }
+
+  .contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 40%;
+}
+
+  .faq{
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  .header{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .faq-header{
+    font-size: 1.6rem;
+  }
+
+  .faq-mostrar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .faq-texto{
+    font-size: 1.2rem;
+  }
+
+  .faq-card{
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    margin-bottom: 1rem;
+  }
+
+  .faq-card:last-of-type{
+    margin-bottom: 0;
+  }
+
+  .eliminar{
+    display: none;
+  }
+
+  .icono-mostrar-menos{
+    background-image: url(../assets/images/icon-minus.svg);
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+  }
+
+  .attribution{
+    margin-top: 3rem;
+  }
